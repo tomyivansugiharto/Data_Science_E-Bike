@@ -7,7 +7,7 @@ import streamlit as st
 sns.set(style='darkgrid')
 
 # Load data
-hours_df = pd.read_csv("hour_clean.csv")
+hours_df = pd.read_csv("https://raw.githubusercontent.com/tomyivansugiharto/Data_Science_E-Bike/main/hour_clean.csv")
 
 # Convert 'date' column to datetime and extract 'month' and 'year'
 hours_df['date'] = pd.to_datetime(hours_df['date'])
