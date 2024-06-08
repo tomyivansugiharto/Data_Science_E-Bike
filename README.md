@@ -12,6 +12,7 @@ Dashboard interaktif ini memberikan analisis atas permintaan pelanggan pada peru
    
 ## Run streamlit app:
    ```
+   cd dashboard
    streamlit run dashboard.py
    ```
 ## Streamlit Link:
