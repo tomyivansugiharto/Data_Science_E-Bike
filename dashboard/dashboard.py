@@ -25,7 +25,7 @@ def create_monthly_season(df):
     return monthly_season
 
 # Load Cleaned Data
-all_df = pd.read_csv("hour_data_clean.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/tomyivansugiharto/Data_Science_E-Bike/main/dashboard/hour_data_clean.csv")
 
 datetime_columns = ['date']
 all_df.sort_values(by='date', inplace=True)
