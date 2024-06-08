@@ -39,7 +39,7 @@ min_date = all_df['date'].min()
 
 with st.sidebar:
     # Logo Company
-    # st.image("")
+    st.image("https://github.com/tomyivansugiharto/Data_Science_E-Bike/blob/main/e-bike_logo.png")
 
     # Take start_date & end_date from date_input
     start_date, end_date = st.date_input(
