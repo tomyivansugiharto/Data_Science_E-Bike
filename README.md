@@ -16,4 +16,4 @@ Dashboard interaktif ini memberikan analisis atas permintaan pelanggan pada peru
    streamlit run dashboard.py
    ```
 ## Streamlit Link:
-## ](dataset/hour.csv)
+## ](data/hour.csv)
